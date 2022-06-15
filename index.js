@@ -12,7 +12,9 @@ window.addEventListener("DOMContentLoaded", () => {
         const card = `<section class="card" >
          <img class="card__img" src="${element.urls.regular}/>"
          <div class="card__content" >
-         <h3 class="content__title" >${element.description || "No description"}</h3>
+         <h3 class="content__title" >${
+           element.description?.slice(0, 25) || "No description"
+         }</h3>
          <div class="content__data">
          <sup>by</sup>
          <a href="${element.user.links.html}">${element.user.first_name}</a>
