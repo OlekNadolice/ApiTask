@@ -5,6 +5,6 @@
 
 - Link to the task https://vermillion-lolly-7df8b4.netlify.app/
 
-- Yes, I know Netlify is slow :(
+- Yes I know, Netlify is slow :(
 
 
